@@ -57,7 +57,7 @@ function generatePassword() {
   // check user input meets criteria of number of characters between 8 and 128
   if (passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength) || passwordLength == null) {
     alert("Please provide a number between 8 and 128.")
-    passLengthPrompt();
+    generatePassword();
     console.log(passwordLength);
   }
   passUpperPrompt();

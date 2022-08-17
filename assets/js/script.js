@@ -88,7 +88,7 @@ function generatePassword() {
               passwordArray.push(lowercaseLetters[randomIntFromInterval(0, lowercaseLetters.length - 1)]) 
           }
             else if(charType == 3 && passwordNumber){
-              passwordArray.push(numbers[randomIntFromInterval(0, numbers.length - 1)])//fix
+              passwordArray.push(numbers[randomIntFromInterval(0, numbers.length - 1)])
           }
             else if(charType == 4 && passwordSpecChar){
               passwordArray.push(symbols[randomIntFromInterval(0, symbols.length - 1)])
